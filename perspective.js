@@ -56,8 +56,8 @@ async function analyzeText(text) {
 
   const res = await analyzer.comments.analyze({
     key: process.env.PERSPECTIVE_API_KEY,
-    resource: req},
-  );
+    resource: req
+  });
 
   data = {};
 
